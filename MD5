@@ -1,7 +1,7 @@
-0cb54a1e4eac64b4e4f256576996f0ff *DESCRIPTION
+cb53f3323665fda65085e058af20e53a *DESCRIPTION
 2485a0acf1f4b6244b4c713c9e0d81e8 *LICENSE
 1beb1ff49e8641156552385af4dedcbc *NAMESPACE
-c126c11b31bc8879eecf92a66d7025a2 *R/cluster_degree_betweenness.R
+65cac97d9e0ea4dce492ae59ddd3b7da *R/cluster_degree_betweenness.R
 59a6fcd15009c642c5a5f5cf39d77e4e *R/plot_simplified_edgeplot.R
 6ed27f3fd992121771936ac8d951d138 *R/prep_unlabeled_graph.R
 03b6ce4d0606d413d0e8539f27469dcf *man/cluster_degree_betweenness.Rd

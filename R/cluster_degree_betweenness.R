@@ -75,7 +75,7 @@ cluster_degree_betweenness <- function(graph) {
     subgraph <-
       igraph::subgraph.edges(
         graph = graph_,
-        eids = grep(degree_nodes[1], edgelist),
+        eids = grep(paste0("\\b",degree_nodes[1],"\\b"), edgelist),
         delete.vertices = TRUE
       )
 
@@ -118,7 +118,7 @@ cluster_degree_betweenness <- function(graph) {
   res$algorithm <- "node degree+edge betweenness"
   res$modularity <- modularities
   res$membership <- communities[[iter_num]]
-  res$bridges <- igraph::bridges(graph) + 1
+  res$bridges <- igraph::bridges(graph_) + 1
   class(res) <- "communities"
 
   return(res)
